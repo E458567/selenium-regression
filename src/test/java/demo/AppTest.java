@@ -16,24 +16,31 @@ public class AppTest {
   public void testCase1_AddNewOwner() {
 		Owner owner = new Owner();
 		owner.launchSite();
+        Util.screenshot();
 		owner.addOwner();
+        Util.screenshot();
 	}
 
   @Test
 	public void testCase2_AddNewPet() {
 		Pet pet = new Pet();
+        Util.screenshot();
 		pet.addPet();
+        Util.screenshot();
 	}
 
   @Test
 	public void testCase3_SearchOwner() {
 		Owner owner = new Owner();
+        Util.screenshot();
 		owner.searchOwner();
+        Util.screenshot();
 	}
 
   @Test
   public void testCase4_CloseBrowser() {
 		WebDriver chromeDriver = WebDriverUtil.getDriver();
+        Util.screenshot();
 		chromeDriver.quit();
 	}
 

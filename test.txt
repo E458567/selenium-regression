@@ -1,0 +1,1 @@
+DOCKER_URL="http://localhost:4444/wd/hub" SAMPLE_APP_URL="http://54.209.253.49:8090" mvn compile test-compile surefire:test
