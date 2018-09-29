@@ -2,7 +2,7 @@
 
 set -e -x
 
-source ../s3-deployment-info/deployment-info.conf
+source /s3-deployment-info/deployment-info.conf
 env
 
 
