@@ -10,3 +10,4 @@ git clone git-qa-regression selenium-output-dir
 cd selenium-output-dir
 mvn compile test-compile surefire:test
 ls screenshots
+tar -czvf selenium-test-results.tar.gz screenshots
